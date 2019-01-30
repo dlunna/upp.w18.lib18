@@ -25,7 +25,7 @@
       <h2>Legales</h2>
       <hr />
         <p><a href="https://drive.google.com/drive/folders/1XLo_jUrY-m3sNkt6stJqW1EQdhIV_-p7">Auditoria externa</a></p>
-        <p><a href="https://drive.google.com/drive/folders/1B7bZWvhORjuaLc6Qn8kEC1au6tkYE4vq">Inventario</a><br /></p>
+        <p><a href="https://www.upp.edu.mx/inventario/">Inventario</a><br /></p>
         <p><a href="http://www.upp.edu.mx/contraloriasocial/">Contraloría social</a></p>
         <p><a href="http://www.upp.edu.mx/fondosextraordinarios/">Fondos extraordinarios</a></p>
         <p><a href="http://www.upp.edu.mx/leygralcontabilidad/">Ley general de contabilidad gubernamental</a></p>

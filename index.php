@@ -76,7 +76,9 @@
     <br />
     <h2 class="text-center">L.S.C. Francisco Moreno Vargas<br />
     Ruth Noemí Hernández Mora<br />
-    Omar Alfredo Ortega Ramírez</h2>
+    Omar Alfredo Ortega Ramírez<br />
+    Miguel Angel Acosta Tristan</h2>
+
     <p class="text-center">Programación y desarrollo</p>
     <br />
     <br />
