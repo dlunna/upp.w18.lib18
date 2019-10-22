@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -29,11 +29,15 @@
     <!-- Bootstrap core CSS -->
     <link href="../lib18/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilo SEP HIDALGO -->
-    <link href="../lib18/seph/style.css" rel="stylesheet">
+    <Xlink href="../lib18/seph/style.css" rel="stylesheet">
     <!-- Estilo para el boton flotante que te lleva arriba-->
     <link href="../lib18/coreFRONTx/10boton-arriba/estilo.css" rel="stylesheet">
     <link href="../lib18/coreFRONTx/xefectos/boton-arriba/boton-uppachuca.css" rel="stylesheet">
   <!-- Fin Estilos -->
+
+  <!-- Estilo Zorm HIDALGO gob -->
+  <link href="../lib18/zorm/style_nuevas.css" rel="stylesheet">
+  <link href="../lib18/zorm/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +49,7 @@
 
     <nav>
       <!-- Menu principal superior -->
-      <?php include ('../lib18/coreFRONTx/01header/nav/menu-superior/menu.html'); ?>
+      <?php //include ('../lib18/coreFRONTx/01header/nav/menu-superior/menu.html'); ?>
     </nav>
 
   </header>
@@ -70,21 +74,17 @@
     <p class="text-center">Jefe del Departamento de Tecnologías de Información y Comunicaciones</p>
     <br />
     <br />
-    <h2 class="text-center">L.C.C. Gustavo Genzález Pérez</h2>
-    <p class="text-center">Encargado del Despacho de la Dirección de Comunicación Social</p>
-    <br />
-    <br />
     <h2 class="text-center">L.S.C. Francisco Moreno Vargas<br />
     Ruth Noemí Hernández Mora<br />
     Omar Alfredo Ortega Ramírez<br />
     Miguel Angel Acosta Tristan</h2>
-
     <p class="text-center">Programación y desarrollo</p>
     <br />
     <br />
 
 
     <p class="text-center">Carretera Pachuca Cd. Sahagún km 20 Ex-Hacienda de Santa Bárbara Zempoala Hidalgo, México. CP-43830<br>
+      <!--Número temporal: 7712474113<br />-->
     Tel 01 (771) 54 77 510 ext 2217<br>
     Correo: <a href="sistemas@upp.edu.mx">sistemas@upp.edu.mx</a></p>
 

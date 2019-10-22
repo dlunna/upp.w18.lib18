@@ -18,11 +18,15 @@
     <!-- Bootstrap core CSS -->
     <link href="../lib18/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilo SEP HIDALGO -->
-    <link href="../lib18/seph/style.css" rel="stylesheet">
+    <Xlink href="../lib18/seph/style.css" rel="stylesheet">
     <!-- Estilo para el boton flotante que te lleva arriba-->
     <link href="../lib18/coreFRONTx/10boton-arriba/estilo.css" rel="stylesheet">
     <link href="../lib18/coreFRONTx/xefectos/boton-arriba/boton-uppachuca.css" rel="stylesheet">
   <!-- Fin Estilos -->
+
+  <!-- Estilo Zorm HIDALGO gob -->
+  <link href="../lib18/zorm/style_nuevas.css" rel="stylesheet">
+  <link href="../lib18/zorm/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,7 +38,7 @@
 
     <nav>
       <!-- Menu principal superior -->
-      <?php include ('../lib18/coreFRONTx/01header/nav/menu-superior/menu.html'); ?>
+      <?php //include ('../lib18/coreFRONTx/01header/nav/menu-superior/menu.html'); ?>
     </nav>
 
   </header>

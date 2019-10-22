@@ -1,0 +1,657 @@
+/* =========== Fuentes Oficiales ============= */
+@font-face{
+    font-family: 'Graphik-Semibold';
+    src: url('/fonts/Graphik-Semibold.otf');
+}
+@font-face{
+    font-family: 'Graphik-RegularItalic';
+    src: url('/fonts/Graphik-RegularItalic.otf');
+}
+@font-face{
+    font-family: 'Graphik-Bold';
+    src: url('/fonts/Graphik-Bold.otf');
+}
+@font-face{
+    font-family: 'Graphik-Light';
+    src: url('/fonts/Graphik-Light.otf');
+}
+@font-face{
+    font-family: 'Graphik-Thin';
+    src: url('/fonts/Graphik-Thin.otf');
+}
+@font-face{
+    font-family: 'Graphik-Regular';
+    src: url('/font/Graphik-Regular.otf');
+}
+
+/* =========== Titulos Oficiales ============= */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Graphik-Semibold', tahoma, sans-serif;
+  font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+h1 {
+    font-size: 20px;
+   font-style: normal;
+  font-family: 'Graphik-Bold', Tahoma, Verdana;
+}
+h2 {
+      font-size: 18px;
+    line-height: 18px;
+  margin-bottom: 20px;
+     font-style: normal;
+    font-weight: 300;
+}
+h3 {
+      font-size: 19px;
+    line-height: 19px;
+  margin-bottom: 18px;
+     font-style: normal;
+}
+h4 {
+  font-size: 13px;
+}
+
+/* =========== Propias ============= */
+.titulo_seph{
+    min-height: 52px;
+}
+.titulo_seph h1{
+          color: #FFF;
+    font-family: 'Graphik-Bold', Tahoma, Verdana !important;
+    font-weight: bolder;
+      font-size: 16px;
+}
+#redes_sociales{
+	margin: 0px;
+}
+.redes_sociales i{
+            color: #FFF;
+        font-size: 20px;
+       margin-top: 21px;
+    margin-bottom: 10.5px;
+     margin-right: 2%;
+}
+
+/* =========== NAVBAR ============= */
+.navbar{
+}
+/* =========== Slider ============= */
+#slider{
+    margin-top: ;
+}
+#slider a:hover{
+	cursor:pointer;
+}
+.no-margins {
+    margin: 0;
+}
+.no-paddings{
+    padding: 0;
+}
+.slider_principal{
+    width:65%;  
+    float:left;
+}
+.slider_secundario {
+       width: 45%; 
+    position: absolute; 
+        left: 54%; 
+         top: 15%;
+}
+.iconos_main{
+       width: 45%; 
+    position: absolute;
+         top: 73%;
+}
+#secciones{
+    margin-top: 1%;
+}
+.slider_secundario a{
+    margin-bottom: 0 !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) { 
+.slider_principal{
+    width:100%;  
+}
+}
+
+
+/* =========== SECCIONES ============= */
+#seph_hoy{
+	   padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+#convocatorias{
+	padding-bottom: 0%;
+}
+
+#redes_sociales{
+	   padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.color-5 a{
+	color: #777777;
+}
+.color-5 a:hover{
+	color: #092432;
+}
+.padding-5{
+	   padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#servicios_docentes .container img{
+  height: 56px;
+}
+
+/*
+---------------------------------------------
+--------------- TITULO DE SECCIONES
+---------------------------------------------
+*/
+#titulo_pagina{
+	   padding-top: 2%;
+	padding-bottom: 2%;
+        text-align: center;
+}
+#titulo_pagina h1{
+	font-size: 2.5em;
+}
+#secciones{
+	background-color:#fff;
+	     padding-top: 5%;
+	  padding-bottom: 5%;
+}
+
+
+/* =========== Colores ============= */
+.c_gob_azul {
+    background-color: #092432;
+}
+.c_gob_gris {
+    background-color: #727272;
+}
+/**/
+.padding-1{
+	   padding-top: 1%;
+	padding-bottom: 1%;
+}
+.padding-2{
+	   padding-top: 2%;
+	padding-bottom: 2%;
+}
+.padding-3{
+	   padding-top: 3%;
+	padding-bottom: 3%;
+}
+.padding-4{
+	   padding-top: 4%;
+	padding-bottom: 4%;
+}
+.padding-5{
+	   padding-top: 5%;
+	padding-bottom: 5%;
+}
+.padding-6{
+	   padding-top: 6%;
+	padding-bottom: 6%;
+}
+.padding-7{
+	   padding-top: 7%;
+	padding-bottom: 7%;
+}
+.padding-8{
+	   padding-top: 8%;
+	padding-bottom: 8%;
+}
+.padding-9{
+	   padding-top: 9%;
+	padding-bottom: 9%;
+}
+.padding-10{
+	   padding-top: 10%;
+	padding-bottom: 10%;
+}
+/* =========== Footer ============= */
+footer{
+    /*border-bottom: 8px #E73C4E solid;*/
+    color: #FFF;
+}
+
+footer .c_gob_azul{
+    padding:4% ;
+}
+
+#flotante{
+  position: fixed;
+  bottom: 0px;
+  background: #084866;
+  width: 100%;
+  color: #ffffff;
+  border: 2px #ffffff solid;
+  z-index: 999;
+}
+
+.boletin {
+margin-top: 5%;
+}
+
+/*
+---------------------------------------------------
+---------------------- ALUMNOS
+---------------------------------------------------
+*/
+#aplicaciones_alumnos{
+    background-color: #ff6a28;
+      padding-bottom: 3%;
+          text-align: center;
+}
+#aplicaciones_alumnos a{
+	/*color: #cc3f1f;*/
+	color: #fff;
+}
+#anuncios_alumnos{
+      padding-bottom: 3%;
+    background-color: #ff6a28;
+}
+#becas{
+    background-color: #383838;
+      padding-bottom: 2%;
+	           color: #fff;
+}
+#becas a{
+	color: #fff;
+}
+#enlaces{
+         padding-top: 3%;
+      padding-bottom: 3%;
+    background-color: #3c3c3c;
+               color: #fff;
+}
+#enlaces a{
+    color: #fff;
+}
+
+/*
+---------------------------------------------------
+---------------------- PADRES DE FAMILIA
+---------------------------------------------------
+*/
+#aplicaciones_padres{
+	background-color: #c62828;
+	  padding-bottom: 2%;
+	  	  text-align: center;
+}
+#aplicaciones_padres a{
+	/*color: #8b1a1a;*/
+	color: #fff;
+}
+#anuncios_padres{
+	  padding-bottom: 3%;
+	background-color: #c62828;
+}
+
+/*
+---------------------------------------------------
+---------------------- DOCENTES
+---------------------------------------------------
+*/
+#aplicaciones_docentes{
+	background-color: #37474f;
+	      text-align: center;
+}
+#anuncios_docentes{
+	  padding-bottom: 3%;
+	background-color: #37474f;
+}
+#servicios_docentes{
+	  padding-bottom: 2%;
+	background-color: #37474f;
+	      text-align: center;
+}
+#servicios_docentes a{
+	color: #fff;
+}
+#temas_interes{
+	background-color: #263238;
+		 padding-top: 3%;
+	  padding-bottom: 3%;
+	           color: #fff;
+}
+#temas_interes a{
+	color: #fff;
+}
+/*
+---------------------------------------------------
+---------------------- UNIVERSALES
+---------------------------------------------------
+*/
+.pestana{
+	padding-left: 23%;
+}
+#convocatorias{
+    padding-bottom: 3%;
+}
+article p{
+	text-align: justify;
+}
+.text-justify{
+	text-align: justify;
+}
+
+/* NUEVOS BOTONES */
+.iconos-fijos {
+               color: #767676;
+    background-color: #f0f2f5;
+}
+.bak {
+          position: relative;
+           display: inline-block;
+             width: 3em;
+            height: 3em;
+       line-height: 3em;
+    vertical-align: middle;
+}
+.enlace a {
+    font-family: 'GothamCond-Medium', sans-serif;
+    font-size: 20px;
+    color: #868991;
+    text-decoration: none;
+}
+
+.enlace a:hover .iconos-fijos {
+    background-color: #D7D9DB;
+}
+.tamanio {
+    height: 115px;
+}
+
+/* -------------------NUEVOS BOTONES */
+#secciones .img-thumbnail:hover{
+    background:#E73C4E;
+}
+
+/* -------------------Aplicaciones */
+.cuadro{
+    color: #ffffff;
+    padding: 1%;
+    max-height: 130px;
+    min-height: 130px;
+}
+.cuadro a{
+    color: #ffffff;
+}
+/* =========== Nuevas convocatorias ============= */
+.thumbnail h4{
+min-height: 60px;
+
+}
+.thumbnail img{
+width: 200px;
+height: 200px;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Graphik-Semibold', tahoma, sans-serif;
+}
+.descripcion {
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Graphik-Semibold', tahoma, sans-serif;
+}
+.fila1 {
+    background-color: #34495e;
+}
+/* -------------------Aplicaciones */
+.cuadro{
+    color: #ffffff;
+    padding: 1%;
+    max-height: 130px;
+    min-height: 130px;
+}
+.cuadro a{
+    color: #ffffff;
+}
+
+/*=========PROGRAMAS=============*/
+
+.contenedor-img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff;
+}
+    .contenedor-img .mascara,.contenedor-img .contenido {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0
+    }
+    .contenedor-img img {
+        display: block;
+        position: relative;
+       
+    }
+    .contenedor-img h2 {
+        text-transform: capitalize;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 17px;
+        padding: 10px;
+        background: rgba(9, 36, 50, 0.9);
+        margin: 20px 0 0 0
+    }
+    .contenedor-img p {    
+        font-size: 20px;
+        position: relative;
+        color: #fff;
+        padding: 20px;
+        text-align: center
+    }
+    .contenedor-img a.link {
+        display: inline-block;
+        text-decoration: none;
+        padding: 7px 14px;
+        background: #092432;
+        color: #fff;
+        text-transform: capitalize;
+        box-shadow: 0 0 1px #000
+    }
+        .contenedor-img a.link:hover {
+            box-shadow: 0 0 5px #000
+        }
+
+.ejemplo-1 img {
+transition: all 0.2s linear;
+}
+.ejemplo-1 .mascara {
+opacity: 0;
+background-color: rgba(52,73,94, 0.7);
+transition: all 0.3s ease-in-out;
+}
+.ejemplo-1 h2 {
+transform: translateX(-200px);/*Desplazamos a la izquierda*/
+opacity: 0;
+transition: all 0.7s ease-in-out;
+}
+.ejemplo-1 p {
+transform: translateX(200px);/*Desplazamos a la derecha*/
+opacity: 0;
+transition: all 0.4s linear;
+}
+.ejemplo-1 a.link{
+opacity: 0;
+transition: all 0.4s ease-in-out;
+transform: translateY(100px)/*Desplazamos para abajo*/
+}
+.ejemplo-1:hover img {
+transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
+}
+.ejemplo-1:hover .mascara {
+opacity: 1;
+}
+.ejemplo-1:hover h2,
+.ejemplo-1:hover p,
+.ejemplo-1:hover a.link {
+opacity: 1;
+transform: translateX(0px);/*Regresamos a las posiciones originales*/
+}
+.ejemplo-1:hover p {
+transition-delay: 0.1s;
+}
+.ejemplo-1:hover a.link {
+transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+transform: translateY(0px);
+}
+/*=======================================*/
+
+/* -------------------Colores prueba */
+.c_turquoise {
+    background-color: #1abc9c;
+}
+.c_green_sea {
+    background-color: #16a085;
+}
+.c_emerald {
+    background-color: #2ecc71;
+}
+.c_nephritis {
+    background-color: #27ae60;
+}
+.c_peter_river {
+    background-color: #3498db;
+}
+.c_belize_hole {
+    background-color: #2980b9;
+}
+
+.c_carrot {
+    background-color: #e67e22;
+}
+
+.c_alizarin {
+    background-color: #e74c3c;
+}
+
+.c_green_sea {
+    background-color: #16a085;
+}
+.c_pomegranate {
+    background-color: #c0392b;
+}
+.c_midnight_blue {
+    background-color: #2c3e50;
+}
+
+/*============ CICLO DE CONFERENCIAS===============*/
+
+.ciclo-antecedentes {
+    border: 3px solid #7800ff;
+    background-color: #d1a8ff;
+}
+
+.ciclo-unete {
+    border: 3px solid #101c48;
+    background-color: #9bb0ff;
+}
+
+.ciclo-naranja {
+    border: 3px solid #ff4e00;
+    background-color: #ffab86;
+}
+
+.ciclo-objetivo {
+    border: 3px solid #414141;
+    background-color: #e5e5e5;
+}
+
+.ciclo-producto {
+    border: 3px solid #045200;
+    background-color: #baffb7;
+}
+
+/*====TRANSPARENCIA====*/
+@media (max-width: 768px){
+    .gobierno .circle-logos{
+        border-radius:0%;
+        border:0px none;
+        padding:0px;
+        margin:2px auto;
+        text-align:center;
+        height:auto !important
+    }
+}
+.gobierno .circle-quotes2 {
+    padding-left: 25px;
+    text-align: center;
+    width: 230px;
+    height: 230px;
+    padding-right: 25px;
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 980px){
+    .gobierno .circle-quotes2{
+        width: auto;
+    }
+}
+.gobierno .circle-quotes2 a {
+    text-decoration: none;
+    color: #383838;
+}
+.gobierno .circle-quotes2 img{
+    margin: 0% auto;
+    width: 80px;
+    margin-top: 23px;
+}
+.rubros{
+    font-size: 70px; 
+    margin-top: 18px; 
+    width: 130px!important; 
+    height: 130px; 
+    font-weight: 700; 
+    clear:both;
+    background-color: #084866;
+    border-radius: 50%;   
+}
+.ligasrubros a{
+    text-decoration: none!important;
+    padding: 10px
+}
+@media only screen and (max-width: 980px){
+    .rubrosdiv{
+        margin-top: 20px
+    }
+}
+
+.label-historica {
+    float: right!important;
+}
+
+.label-primary {
+    background-color: #084866!important;
+}
+/* =========== Temporales Borrar Version final ============= */

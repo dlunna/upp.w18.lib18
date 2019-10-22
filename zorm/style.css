@@ -1,0 +1,550 @@
+/*
+Theme Name: Secretaría de Educación Pública de Hidalgo
+Theme URI: 
+Author: Juan Gabriel Téllez Islas
+Description: Tema para SEPH 2018
+Version: 1.0
+License: GNU General Public License
+License URI: 
+License: GNU General Public License
+License URI: license.txt
+Tags: 
+*/
+
+/* =========== Fuentes Oficiales ============= */
+@font-face{
+    font-family: 'Graphik-Semibold';
+    src: url('/fonts/Graphik-Semibold.otf');
+}
+@font-face{
+    font-family: 'Graphik-RegularItalic';
+    src: url('/fonts/Graphik-RegularItalic.otf');
+}
+@font-face{
+    font-family: 'Graphik-Bold';
+    src: url('/fonts/Graphik-Bold.otf');
+}
+@font-face{
+    font-family: 'Graphik-Light';
+    src: url('/fonts/Graphik-Light.otf');
+}
+@font-face{
+    font-family: 'Graphik-Thin';
+    src: url('/fonts/Graphik-Thin.otf');
+}
+@font-face{
+    font-family: 'Graphik-Regular';
+    src: url('/font/Graphik-Regular.otf');
+}
+
+/* =========== Titulos Oficiales ============= */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Graphik-Semibold', tahoma, sans-serif;
+  font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+h1 {
+    font-size: 20px;
+   font-style: normal;
+  font-family: 'Graphik-Bold', Tahoma, Verdana;
+}
+h2 {
+      font-size: 18px;
+    line-height: 18px;
+  margin-bottom: 18px;
+     font-style: normal;
+    font-weight: 300;
+}
+h3 {
+      font-size: 16px;
+    line-height: 16px;
+  margin-bottom: 16px;
+     font-style: normal;
+}
+h4 {
+  font-size: 14px;
+}
+
+/* =========== HEADER ============= */
+.titulo_seph{
+    min-height: 52px;
+}
+.titulo_seph h1{
+          color: #FFF;
+    font-family: 'Graphik-Bold', Tahoma, Verdana !important;
+    font-weight: bolder;
+      font-size: 16px;
+}
+#redes_sociales{
+	margin: 0px;
+}
+.redes_sociales i{
+            color: #FFF;
+        font-size: 20px;
+       margin-top: 21px;
+    margin-bottom: 10.5px;
+     margin-right: 2%;
+}
+
+/* =========== NAVBAR ============= */
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) { 
+.slider_principal{
+    width:100%;  
+}
+}
+
+/* =========== COLORES ============= */
+.c_gob_azul {
+    background-color: #092432;
+}
+.c_gob_azul_2 {
+    background-color: #084866;
+    color: #fff;
+}
+/* =========== Footer ============= */
+
+footer{
+    /*border-bottom: 8px #E73C4E solid;*/
+    background-color: #084866;
+    min-height: 56px;
+    color: #fff;
+    padding: 20px 0 30px;
+}
+
+footer .c_gob_azul{
+    padding:4% ;
+}
+
+.boletin {
+margin-top: 5%;
+}
+/* ================= PLANTILLA ==================*/
+/*supresion de espacio*/
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+/*parrafos*/
+.text-white{
+	color: #f9f9f9;
+}
+.text-white a{
+	color: #f9f9f9;
+}
+
+
+.txt-shadow{
+	text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+}
+.shadow{
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(33, 33, 33, 0.75);
+	   -moz-box-shadow: 0px 2px 2px 0px rgba(33, 33, 33, 0.75);
+			box-shadow: 0px 2px 2px 0px rgba(33, 33, 33, 0.75);
+}
+.top-border{
+	
+}
+.right-border{
+	border-right-color: #303F9F;
+	border-right-style: solid;
+	border-right-width: 10px;
+}
+.left-border{
+	border-left-color: #303F9F;
+	border-left-style: solid;
+	border-left-width: 10px;
+}
+.bottom-border{
+	border-bottom-color: #303F9F;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+}
+
+/*colores*/
+.color-1{
+	background-color: #b6181d;
+	           color: #fff;
+}
+.color-2{
+	background-color: #092432;
+	           color: #fff;
+}
+.color-3{
+	background-color: #f5f5f5;
+	           color: #092432;
+}
+.color-4{
+	background-color: #777777;
+			   color: #fff;
+}
+.color-5{
+	background-color: #f9f9f9;
+			   color: #777;
+}
+.color-6{
+	background-color: #3b5998;
+			   color: #fff;
+}
+.color-7{
+	background-color: #1da1f2;
+			   color: #fff;
+}
+.color-8{
+	background-color: #533db0;
+			   color: #fff;
+}
+.color-9{
+	background-color: #ff5500;
+	color: #fff;
+}
+/* ======= COLORES MATERIAL =======*/
+/* color para docentes */
+.color-10{
+	background-color: #263238;
+	color: #f6f6f6;
+}
+.color-11{
+	background-color: #303F9F;
+	color: #f6f6f6;
+}
+.color-12{
+	background-color: #fff;
+	color: #212121;
+}
+/*color para padres*/
+.color-16{
+	background-color: #71b631;
+	color: #f6f6f6;
+}
+.color-17{
+	background-color: #EEEEEE;
+	color: #424242;
+}
+/* color para alumnos */
+.color-18{
+	background-color: #bc1826;
+	color: #f9f9f9;
+}
+/* colores de enlaces */
+.color-1 a{
+	color: #fff;
+}
+.color-2 a{
+	color: #fff;
+}
+.color-3 a{
+	color: #092432;
+}
+.color-5 a{
+	color: #777777;
+}
+.color-5 a:hover{
+	color: #092432;
+}
+.color-6 a{
+	color: #fff;
+}
+.color-7 a{
+	color: #fff; 
+}
+.color-8 a{
+	color: #fff;
+}
+.color-9 a{
+	color: #fff;
+}
+
+/*paddings*/
+.padding-1{
+	   padding-top: 1%;
+	padding-bottom: 1%;
+}
+.padding-2{
+	   padding-top: 2%;
+	padding-bottom: 2%;
+}
+.padding-3{
+	   padding-top: 3%;
+	padding-bottom: 3%;
+}
+.padding-4{
+	   padding-top: 4%;
+	padding-bottom: 4%;
+}
+.padding-5{
+	   padding-top: 5%;
+	padding-bottom: 5%;
+}
+.padding-6{
+	   padding-top: 6%;
+	padding-bottom: 6%;
+}
+.padding-7{
+	   padding-top: 7%;
+	padding-bottom: 7%;
+}
+.padding-8{
+	   padding-top: 8%;
+	padding-bottom: 8%;
+}
+.padding-9{
+	   padding-top: 9%;
+	padding-bottom: 9%;
+}
+.padding-10{
+	   padding-top: 10%;
+	padding-bottom: 10%;
+}
+.padding-20{
+	   padding-top: 20%;
+	padding-bottom: 20%;
+}
+.padding-30{
+	   padding-top: 30%;
+	padding-bottom: 30%;
+}
+/* ======= 	MARGIN =======*/
+.margin-5{
+	   margin-top: 5%;
+	margin-bottom: 5%;
+}
+/* ======= VIDEO =======*/
+.slider{
+	margin: 0px;
+}
+.video{
+	  position: fixed;
+	 min-width: 100%;
+	min-height: 100%;
+	   z-index: -1;
+		   top: 50%;
+		  left: 50%;
+	 transform: translateX(-50%) translateY(-50%);
+}
+.main-docentes{
+	    background: rgba(38, 50, 56, 0.5);
+	         color: #f6f6f6;
+	   padding-top: 3%;
+	padding-bottom: 8%;
+}
+.main-padres{
+	    background: rgba(113, 182, 49, 0.2);
+	         color: #f6f6f6;
+	   padding-top: 3%;
+	padding-bottom: 6%;
+	
+}
+.main-alumnos{
+	    background: rgba(188, 24, 38, 0.1);
+	         color: #f6f6f6;
+	   padding-top: 3%;
+	padding-bottom: 6%;
+}
+
+/* ======= SECCIONES =======*/
+@media (min-width: 1170px) {
+    .flotante{
+    		  position: absolute; 
+         		  left: 15%; 
+         	       top: 62%; 
+               z-index: 3;
+             max-width: 72%;
+			 min-width: 72%;
+ -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+         border-radius: 2px;
+    -webkit-box-shadow: 3px 4px 1px 0px rgba(56, 56, 56, 0.50);
+	   -moz-box-shadow: 3px 4px 1px 0px rgba(56, 56, 56, 0.50);
+			box-shadow: 3px 4px 1px 0px rgba(56, 56, 56, 0.50);
+}
+.container-float {
+    width: 100%;
+  }
+}
+@media (max-width: 1169px) {
+	.flotante{
+		   padding-top: 10%;
+		padding-bottom: 6%;
+		min-height:290px;
+	}
+}
+
+.convocatorias{
+	   padding-top: 14%;
+	padding-bottom: 4%;
+}
+.convocatoria-item{
+	padding: 3%;
+}
+.de-interes{
+	border-bottom-color: #263238;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+}
+.anuncios{
+	padding: 15px;
+}
+/* ======= PAGINAS =======*/
+/*convocatorias*/
+/*programas*/
+/*tramites y servicios*/
+/*intraseph*/
+/*subsecretarias*/
+/*
+---------------------------------------------------
+---------------------- NUEVO SLIDER
+---------------------------------------------------
+*/
+.boxs_slider, .boxs_slider_full, .iconos_main{
+  background: #f5f5f5;
+}
+
+.iconos_main{
+  padding: 1%;
+  max-height:120px; 
+  min-height:120px;
+  border: 2px #f9f9f9 solid;
+  margin-top: 1%;
+
+}
+.iconos_main img{
+  width: 20%;
+}
+
+.iconos_main h4{
+  color: #5b5b5e;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.iconos_main a:hover{
+  text-decoration: none;
+}
+
+
+@media (min-width: 992px) { 
+    .boxs_slider, .boxs_slider_full{
+      padding: 5%;
+      cursor: pointer;
+      min-height: 125px;
+      max-height: 125px;
+    }
+}
+
+
+.boxs_slider:hover, .boxs_slider_full:hover{
+  color: #092432;
+}
+
+.boxs_slider, .boxs_slider_full{
+  border: 2px #f0f0f0 solid;
+}
+
+.boxs_slider h4, .boxs_slider_full h4{
+  /*
+	font-weight: bold;
+  font-size: 1.1em;
+	*/
+}
+
+.slider_cambiante{
+  max-height: 375px;
+}
+
+.carousel-caption{
+    background: #092432;
+       opacity: 0.6;
+         width: 100%;
+          left: 0;
+         right: 0;
+/*   padding-top: 0%;*/
+padding-bottom: 1%;
+}
+/*
+.carousel-caption h4{
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px){
+  .carousel-caption h4{
+    margin-top: 0;
+    padding: 2% 0;
+  }
+}
+*/
+
+.programas-principales:hover {
+    filter: opacity(.5);
+}
+
+/*====TRANSPARENCIA====*/
+@media (max-width: 768px){
+    .gobierno .circle-logos{
+        border-radius:0%;
+        border:0px none;
+        padding:0px;
+        margin:2px auto;
+        text-align:center;
+        height:auto !important
+    }
+}
+.gobierno .circle-quotes2 {
+    padding-left: 25px;
+    text-align: center;
+    width: 230px;
+    height: 230px;
+    padding-right: 25px;
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 980px){
+    .gobierno .circle-quotes2{
+        width: auto;
+    }
+}
+.gobierno .circle-quotes2 a {
+    text-decoration: none;
+    color: #383838;
+}
+.gobierno .circle-quotes2 img{
+    margin: 0% auto;
+    width: 80px;
+    margin-top: 23px;
+}
+.rubros{
+    font-size: 70px; 
+    margin-top: 18px; 
+    width: 130px!important; 
+    height: 130px; 
+    font-weight: 700; 
+    clear:both;
+    background-color: #084866;
+    border-radius: 50%;   
+}
+.ligasrubros a{
+    text-decoration: none!important;
+    padding: 10px
+}
+@media only screen and (max-width: 980px){
+    .rubrosdiv{
+        margin-top: 20px
+    }
+}
+
+.label-historica {
+    float: right!important;
+}
+
+.label-primary {
+    background-color: #084866!important;
+}
