@@ -1,20 +1,20 @@
 [
     {
         "name": "components/font-awesome",
-        "version": "5.9.0",
-        "version_normalized": "5.9.0.0",
+        "version": "5.12.0",
+        "version_normalized": "5.12.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/components/font-awesome.git",
-            "reference": "1be57c473b964c8130f2dbd9edc4f64db5394114"
+            "reference": "d8646ec635a00b06cc219b7dffed3418444975cc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/components/font-awesome/zipball/1be57c473b964c8130f2dbd9edc4f64db5394114",
-            "reference": "1be57c473b964c8130f2dbd9edc4f64db5394114",
+            "url": "https://api.github.com/repos/components/font-awesome/zipball/d8646ec635a00b06cc219b7dffed3418444975cc",
+            "reference": "d8646ec635a00b06cc219b7dffed3418444975cc",
             "shasum": ""
         },
-        "time": "2019-06-07T02:02:10+00:00",
+        "time": "2020-01-08T10:17:47+00:00",
         "type": "component",
         "extra": {
             "component": {
@@ -38,20 +38,20 @@
     },
     {
         "name": "components/jquery",
-        "version": "3.3.1",
-        "version_normalized": "3.3.1.0",
+        "version": "3.4.1",
+        "version_normalized": "3.4.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/components/jquery.git",
-            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649"
+            "reference": "901828b7968b18319e377dc23d466f28426ee083"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/components/jquery/zipball/459648cda77875519c5da3ae1dd0ed5d170aa649",
-            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649",
+            "url": "https://api.github.com/repos/components/jquery/zipball/901828b7968b18319e377dc23d466f28426ee083",
+            "reference": "901828b7968b18319e377dc23d466f28426ee083",
             "shasum": ""
         },
-        "time": "2018-03-04T13:23:48+00:00",
+        "time": "2019-10-23T05:15:13+00:00",
         "type": "component",
         "extra": {
             "component": {
@@ -82,23 +82,23 @@
     },
     {
         "name": "twbs/bootstrap",
-        "version": "v4.3.1",
-        "version_normalized": "4.3.1.0",
+        "version": "v4.4.1",
+        "version_normalized": "4.4.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/twbs/bootstrap.git",
-            "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b"
+            "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8fa0d3010112dca5dd6dd501173415856001ba8b",
-            "reference": "8fa0d3010112dca5dd6dd501173415856001ba8b",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
+            "reference": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
             "shasum": ""
         },
         "replace": {
             "twitter/bootstrap": "self.version"
         },
-        "time": "2019-02-13T16:01:40+00:00",
+        "time": "2019-11-28T12:59:49+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -112,12 +112,12 @@
         ],
         "authors": [
             {
-                "name": "Jacob Thornton",
-                "email": "jacobthornton@gmail.com"
-            },
-            {
                 "name": "Mark Otto",
                 "email": "markdotto@gmail.com"
+            },
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
             }
         ],
         "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
