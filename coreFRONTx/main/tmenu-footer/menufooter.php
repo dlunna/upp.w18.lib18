@@ -15,8 +15,9 @@
         <p><a href="http://www.upp.edu.mx/institucion/#vision">Visión</a></p>
         <p><a href="http://www.upp.edu.mx/institucion/#rector">Rector</a></p>
         <p><a href="http://www.upp.edu.mx/institucion/#modelo">Modelo educativo</a></p>
+        <p><a href="http://www.upp.edu.mx/institucion/#nuestros-compromisos">Nuestros compromisos</a></p>
         <p><a href="http://www.upp.edu.mx/main/#calendario">Calendario Académico</a></p>
-        <p><a href="http://www.upp.edu.mx/becas/">Becas</a></p>        
+        <p><a href="http://www.upp.edu.mx/becas/">Becas</a></p>
         <p><a href="http://www.upp.edu.mx/normatividad/">Normatividad</a></p>
         <p><a href="https://sii.upp.edu.mx">Sistema de gestión de la calidad</a></p>
         <p><a href="http://www.upp.edu.mx/transparencia/">Transparencia</a></p>
@@ -34,7 +35,7 @@
         <p><a href="http://www.upp.edu.mx/compras">Licitaciones e invitaciones</a></p>
         <p><a href="http://www.upp.edu.mx/indicadorestacticos">Indicadores tácticos</a></p>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-2">
       <h2>Centros</h2>
       <hr />
         <p><a href="http://www.upp.edu.mx/biblioteca/">Investigación bibliográfica</a></p>
@@ -43,13 +44,22 @@
         <p><a href="../lib18/proximamente.php">Centro de lenguas</a></p>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-2">
       <h2>Departamentos</h2>
       <hr />
         <p><a href="../lib18/proximamente.php">Internacionalización</a></p>
         <p><a href="../lib18/proximamente.php">Cultura</a></p>
-        <p><a href="../lib18/proximamente.php">Servicio médico</a></p>
+        <p><a href="http://www.upp.edu.mx/atencion_y_promocion_de_la_salud/">Servicio médico</a></p>
         <p><a href="http://site.upp.edu.mx">TIC's</a></p>
+    </div>
+    <div class="col-md-2">
+      <h2>Oferta educativa</h2>
+      <hr />
+        <p><a href="http://www.upp.edu.mx/ofertaeducativa/">Licenciaturas</a></p>
+        <p><a href="http://www.upp.edu.mx/ofertaeducativa/">Ingenierías</a></p>
+        <p><a href="http://www.upp.edu.mx/posgrado/#oferta">Especialidades</a></p>
+        <p><a href="http://www.upp.edu.mx/posgrado/#oferta">Maestrías</a></p>
+        <p><a href="http://www.upp.edu.mx/posgrado/#oferta">Doctorados</a></p>
     </div>
 
   </div>
