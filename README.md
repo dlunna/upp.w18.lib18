@@ -1,2 +1,3 @@
-# upp.w18.lib18
-Librerias para proyecto web
+# Universidad Politécnica de Pachuca
+# sistemas@upp.edu.mx
+# (=`.'=) dl

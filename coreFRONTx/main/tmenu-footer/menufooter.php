@@ -47,9 +47,9 @@
     <div class="col-md-2">
       <h2>Departamentos</h2>
       <hr />
-        <p><a href="../lib18/proximamente.php">Internacionalización</a></p>
+        <p><a href="http://www.upp.edu.mx/internacionalizacion/">Internacionalización</a></p>
         <p><a href="../lib18/proximamente.php">Cultura</a></p>
-        <p><a href="http://www.upp.edu.mx/atencion_y_promocion_de_la_salud/">Servicio médico</a></p>
+        <p><a href="http://www.upp.edu.mx/atencion_y_promocion_de_la_salud/">Atención y promoción a la salud</a></p>
         <p><a href="http://site.upp.edu.mx">TIC's</a></p>
     </div>
     <div class="col-md-2">
