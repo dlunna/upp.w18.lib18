@@ -39,7 +39,7 @@
       <h2>Centros</h2>
       <hr />
         <p><a href="http://www.upp.edu.mx/biblioteca/">Investigación bibliográfica</a></p>
-        <p><a href="../lib18/proximamente.php">Equinoterapia</a></p>
+        <p><a href="http://www.upp.edu.mx/ceetupp/">Equinoterapia CEETUPP</a></p>
         <p><a href="../lib18/proximamente.php">Rehabilitación física</a></p>
         <p><a href="../lib18/proximamente.php">Centro de lenguas</a></p>
     </div>
